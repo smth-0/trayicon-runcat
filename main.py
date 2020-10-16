@@ -9,7 +9,7 @@ class Program(QWidget):
         super().__init__()
 
         self.sleep_icon = QIcon('static/my-sleeping-symbolic.svg')
-        self.run_icons = [QIcon('staric/my-running-%d-symbolic.svg'%i) for i in range(0, 5)]
+        self.run_icons = [QIcon('static/my-running-%d-symbolic.svg'%i) for i in range(0, 5)]
         self.counter = 0
 
         self.timer = QTimer()
